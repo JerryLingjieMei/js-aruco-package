@@ -414,4 +414,4 @@ AR.Detector.prototype.rotate2 = function (src, rotation) {
 };
 
 export default AR;
-export POS from "./posit1"
+export {POS} from "./posit1"
