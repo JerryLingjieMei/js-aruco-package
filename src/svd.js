@@ -282,5 +282,4 @@ SVD.sign = function(a, b){
   return b >= 0.0? Math.abs(a): -Math.abs(a);
 };
 
-
-module.exports.SVD = SVD
+export default SVD;
