@@ -2,9 +2,8 @@
   "name": "js-aruco",
   "version": "2.0.0",
   "description": "JavaScript porting of the ArUco library supporting multiple dictionaries",
-  "main": "src/aruco.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter list"
   },
   "repository": {
     "type": "git",
@@ -15,9 +14,19 @@
     "cv"
   ],
   "author": "Damiano Falcioni",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/damianofalcioni/js-aruco2/issues"
   },
-  "homepage": " http://www.uco.es/investiga/grupos/ava/node/26"
+  "homepage": " http://www.uco.es/investiga/grupos/ava/node/26",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "*.md"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  }
 }

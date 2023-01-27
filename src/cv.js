@@ -29,7 +29,6 @@ References:
 */
 
 var CV = CV || {};
-this.CV = CV;
 
 CV.Image = function(width, height, data){
   this.width = width || 0;
