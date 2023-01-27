@@ -31,8 +31,8 @@ References:
 
 var AR = {};
 var CV = this.CV || require('./cv').CV;
-var SVD = this.SVD || require('./posit1').POS;
-var POS = this.POS || require('./svd').SVD;
+var SVD = this.SVD || require('./svd').SVD;
+var POS = this.POS || require('./posit1').POS;
 this.AR = AR;
 this.POS = POS;
 
