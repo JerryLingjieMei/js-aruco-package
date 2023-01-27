@@ -31,8 +31,7 @@ References:
 
 var AR = {};
 this.AR = AR;
-import {CV} from "./cv"
-import {POS} from "./posit1"
+import CV from "./cv"
 
 
 AR.DICTIONARIES = {
@@ -415,4 +414,4 @@ AR.Detector.prototype.rotate2 = function (src, rotation) {
 };
 
 export default AR;
-export {POS} from "./posit1"
+export POS from "./posit1"
